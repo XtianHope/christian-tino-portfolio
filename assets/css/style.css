@@ -91,17 +91,17 @@ p {
 
 /* Set the width and margin for articles within the .portfolio class */
 .portfolio-items article {
-    width: calc(50% - 40px);
+    width: cal(50% - 40px);
     margin: 20px;
 }
 
 /* Set the width of the first article within .portfolio-items class to be the full container minus 40px */
 .portfolio-items article:first-child {
-    width: calc(100% - 40px);
+    width: calc(100%-40px);
 }
 
 /* Set the width of the first image within the first article of .portfolio-items class to occupy 100% of its container */
-.portfolio-items article:first-child img {
+.portfolio-items article img {
     width: 100%;
 }
 
@@ -111,10 +111,13 @@ p {
     width: 100%;
     aspect-ratio: 16/9;
     align-items: center;
+    overflow: hidden;
+    transition: ease-in-out;
+    filter: saturate(50);
 }
 
 /* Added hover filter */
 .portfolio-items article a:hover {
-    filter: opacity(0.8)
+    filter: opacity(20)
 }
 
