@@ -47,7 +47,7 @@ nav a:hover {
 
 /* Added media screen to adapt header when screen width is 980px or lower */
 @media screen and (max-width: 980px) {
-    header{
+    header {
         padding-bottom: 0;
         justify-content: center;
         text-align: center;
@@ -55,7 +55,6 @@ nav a:hover {
         position: relative;
     }
 }
-
 
 
 /* Set paragraph format */
@@ -66,6 +65,18 @@ p {
     width: 55%;
     padding: 10px 30px 0 25px;
 }
+
+/* Added media screen to adapt section when screen width is 768px or lower */
+@media screen and (max-width: 768px) {
+    section {
+        padding-bottom: 0;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        position: relative;
+    }
+}
+
 
 /*Set portfolio items to display in flexbox*/
 .portfolio-items {
