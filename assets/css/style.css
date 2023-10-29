@@ -32,8 +32,9 @@ body {
 }
 
 /* Set the anchor tag within the first article of .portfolio-items to be a block-level element, filling available width, and set aspect-ratio */
-.portfolio-items article: :first-child a {
+.portfolio-items article:first-child a {
     display: block;
     width: 100%;
     aspect-ratio: 16/9;
+    border: 4px solid black;
 }
