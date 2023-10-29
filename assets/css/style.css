@@ -9,3 +9,9 @@
 .portfolio-items {
     display: flex;
 }
+
+/* Set the width and margin for articles within the .portfolio class */
+.portfolio-items article {
+    width: calc(50%-40px);
+    margin: 20px;
+}
