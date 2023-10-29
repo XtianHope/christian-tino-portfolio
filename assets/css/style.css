@@ -21,3 +21,7 @@
     width: calc(100%-40px);
 }
 
+/* Set the width of the first image within the first article of .portfolio-items class to occupy 100% of its container */
+.portfolio-items article:first-child img {
+    width: 100%;
+}
