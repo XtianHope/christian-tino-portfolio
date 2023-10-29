@@ -22,19 +22,23 @@ body {
 }
 
 /* Set the width of the first article within .portfolio-items class to be the full container minus 40px */
-.portfolio-items article: :first-child {
+.portfolio-items article:first-child {
     width: calc(100%-40px);
 }
 
 /* Set the width of the first image within the first article of .portfolio-items class to occupy 100% of its container */
-.portfolio-items article:first-child img {
+.portfolio-items article img {
     width: 100%;
 }
 
 /* Set the anchor tag within the first article of .portfolio-items to be a block-level element, filling available width, and set aspect-ratio */
-.portfolio-items article:first-child a {
-    display: block;
+.portfolio-items article a {
+    display: flex;
     width: 100%;
     aspect-ratio: 16/9;
-    border: 4px solid black;
+    align-items: center;
+}
+
+.portfolio-items article a:hover {
+    filter: opacity(0.8)
 }
