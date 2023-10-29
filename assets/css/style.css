@@ -18,6 +18,24 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+}
+
+/*Set margin of h1 element to 0 */
+ h1 {
+    margin: 0;
+ }
+
+ /* Set links to display horizontally */
+ header nav{
+    display: flex;
+}
+
+/* Set link appearance*/
+nav a {
+    color: black
+    text-decoration: none;
+    margin-left: 20px;
 }
 
 /*Set portfolio items to display in flexbox*/
