@@ -68,6 +68,7 @@ nav a {
     align-items: center;
 }
 
+/* Added hover filter */
 .portfolio-items article a:hover {
     filter: opacity(0.8)
 }
