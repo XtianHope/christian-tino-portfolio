@@ -39,12 +39,20 @@ nav a {
     font-size: 30px;
 }
 
-/* Added hover state to underline teal */
+/* Added hover state to underline */
 nav a:hover {
     text-decoration: underline;
     border-bottom: 1px solid teal;
 }
 
+/* Set paragraph format */
+p {
+    font-size: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 55%;
+    padding: 10px 30px 0 25px;
+}
 
 /*Set portfolio items to display in flexbox*/
 .portfolio-items {
