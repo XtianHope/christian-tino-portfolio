@@ -45,6 +45,19 @@ nav a:hover {
     border-bottom: 1px solid teal;
 }
 
+/* Added media screen to adapt header when screen width is 980px or lower */
+@media screen and (max-width: 980px) {
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        position: relative;
+    }
+}
+
+
+
 /* Set paragraph format */
 p {
     font-size: 25px;
@@ -88,3 +101,4 @@ p {
 .portfolio-items article a:hover {
     filter: opacity(0.8)
 }
+
