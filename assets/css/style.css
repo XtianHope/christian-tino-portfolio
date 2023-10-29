@@ -33,11 +33,18 @@ header {
 
 /* Set link appearance*/
 nav a {
-    color: rgb(125, 177, 174)
+    color: rgb(125, 177, 174);
     text-decoration: none;
     margin-left: 50px;
     font-size: 30px;
 }
+
+/* Added hover state to underline teal */
+nav a:hover {
+    text-decoration: underline;
+    border-bottom: 1px solid teal;
+}
+
 
 /*Set portfolio items to display in flexbox*/
 .portfolio-items {
@@ -48,7 +55,6 @@ nav a {
 
 /* Set the width and margin for articles within the .portfolio class */
 .portfolio-items article {
-    width: calc(50%-40px);
     margin: 20px;
 }
 
