@@ -56,7 +56,9 @@ nav a:hover {
     }
 }
 
-
+section h2 {
+    font-size: 25px;
+}
 
 
 /* Set paragraph format */
@@ -89,16 +91,17 @@ p {
 
 /* Set the width and margin for articles within the .portfolio class */
 .portfolio-items article {
+    width: calc(50% - 40px);
     margin: 20px;
 }
 
 /* Set the width of the first article within .portfolio-items class to be the full container minus 40px */
 .portfolio-items article:first-child {
-    width: calc(100%-40px);
+    width: calc(100% - 40px);
 }
 
 /* Set the width of the first image within the first article of .portfolio-items class to occupy 100% of its container */
-.portfolio-items article img {
+.portfolio-items article:first-child img {
     width: 100%;
 }
 
