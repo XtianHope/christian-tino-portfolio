@@ -4,3 +4,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*Set portfolio items to display in flexbox*/
+.portfolio-items {
+    display: flex;
+}
