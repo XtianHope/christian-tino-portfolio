@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Added font family to body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*Set portfolio items to display in flexbox*/
 .portfolio-items {
     display: flex;
