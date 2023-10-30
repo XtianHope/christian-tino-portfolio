@@ -155,3 +155,14 @@ p {
     /* filter: saturate(20) */
 }
 
+.contact-section {
+    display: flex;
+    padding: 8px 16px;
+}
+
+.contact-heading > h2 {
+    color:  teal;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: calc(100% - 16px)
+}
