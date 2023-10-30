@@ -86,18 +86,20 @@ p {
 .portfolio-items {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    justify-content: flex-end;
+    column-gap: 16px;
 }
 
 /* Set the width and margin for articles within the .portfolio class */
 .portfolio-items article {
-    width: cal(50% - 40px);
-    margin: 20px;
+    width: cal(33.33% - 16px);
+    margin: 8px;
 }
 
 /* Set the width of the first article within .portfolio-items class to be the full container minus 40px */
 .portfolio-items article:first-child {
-    width: calc(100%-40px);
+    width: 100%;
+    margin: 0;
 }
 
 /* Set the width of the first image within the first article of .portfolio-items class to occupy 100% of its container */
@@ -105,7 +107,7 @@ p {
     width: 100%;
 }
 
-/* Set the anchor tag within the first article of .portfolio-items to be a block-level element, filling available width, and set aspect-ratio */
+/* Set the anchor tag within the first article of .portfolio-items to be a flex element, filling available width, and set aspect-ratio */
 .portfolio-items article a {
     display: flex;
     width: 100%;
@@ -118,6 +120,6 @@ p {
 
 /* Added hover filter */
 .portfolio-items article a:hover {
-    filter: opacity(20)
+    filter: saturate(20)
 }
 
