@@ -133,6 +133,10 @@ p {
 }
 */
 
+.portfolio-items img {
+    width: calc(100% - 15px);
+}
+
 /* Set the width of the .big-picture-container class to occuppy 100% of its container*/
 .portfolio-items .big-picture-container {
     width: 100%;
@@ -159,9 +163,13 @@ p {
     /* filter: saturate(20) */
 }
 
-.contact-section {
-    display: flex;
-    padding: 8px 16px;
+
+/* Formatted contact-heading */
+.contact-container {
+    border-right: 5px solid teal;
+    padding-right: 5px;
+    width: 300px;
+    min-width: 300px;
 }
 
 .contact-heading > h2 {
