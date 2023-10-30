@@ -102,6 +102,18 @@ p {
     }
 }
 
+/* Formatted work-container */
+.work-container {
+    display: flex;
+    padding: 8px 16px;
+}
+
+.about-me-heading > h2 {
+    color:  teal;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: calc(100% - 16px)
+}
 
 /*Set portfolio items to display in flexbox*/
 .portfolio-items {
@@ -117,19 +129,18 @@ p {
     margin: 8px;
 }
 
-/* Set the width of the first article within .portfolio-items class to be the full container minus 40px */
-.portfolio-items article:first-child {
+/* Set the width of the .big-picture-container class to occuppy 100% of its container*/
+.portfolio-items .big-picture-container {
     width: 100%;
-    margin: 0;
 }
 
-/* Set the width of the first image within the first article of .portfolio-items class to occupy 100% of its container */
-.portfolio-items article img {
-    width: 100%;
+/* Set the width of the.smaller-picture-container class to occupy 50% of its container */
+.portfolio-items .smaller-picture-container {
+    width: 50%;
 }
 
 /* Set the anchor tag within the first article of .portfolio-items to be a flex element, filling available width, and set aspect-ratio */
-.portfolio-items article a {
+/* .portfolio-items article a { 
     display: flex;
     width: 100%;
     aspect-ratio: 16/9;
@@ -137,7 +148,7 @@ p {
     overflow: hidden;
     transition: ease-in-out;
     /* filter: saturate(50); */
-}
+
 
 /* Added hover filter */
 .portfolio-items article a:hover {
