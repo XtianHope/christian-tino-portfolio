@@ -104,11 +104,17 @@ p {
 
 /* Formatted work-container */
 .work-container {
+    display: flex;
+    padding: 8px 16px;
+}
+
+.work-heading {
     border-right: 5px solid teal;
     padding-right: 5px;
     width: 300px;
     min-width: 300px;
 }
+
 .work-heading h2 {
     color:  teal;
     font-size: 48px;
