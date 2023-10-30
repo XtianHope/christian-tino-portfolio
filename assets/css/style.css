@@ -104,11 +104,13 @@ p {
 
 /* Formatted work-container */
 .work-container {
-    display: flex;
-    padding: 8px 16px;
+    border-right: 5px solid teal;
+    padding-right: 5px;
+    width: 300px;
+    min-width: 300px;
 }
 
-.about-me-heading > h2 {
+.about-me-heading h2 {
     color:  teal;
     font-size: 48px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -133,6 +135,7 @@ p {
 }
 */
 
+/* Set the width for .portfolio-items image */
 .portfolio-items img {
     width: calc(100% - 15px);
 }
@@ -172,7 +175,7 @@ p {
     min-width: 300px;
 }
 
-.contact-heading > h2 {
+.contact-heading h2 {
     color:  teal;
     font-size: 48px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
