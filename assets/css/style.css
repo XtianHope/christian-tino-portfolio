@@ -135,12 +135,13 @@ p {
 
 /* Set the width for .portfolio-items image */
 .portfolio-items img {
-    width: calc(100% - 15px);
+    width: calc(100% - 25px);
 }
 
 /* Set the width of the .big-picture-container class to occuppy 100% of its container*/
 .portfolio-items .big-picture-container {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 /* Set the width of the.smaller-picture-container class to occupy 50% of its container */
