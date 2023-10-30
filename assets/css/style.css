@@ -119,15 +119,19 @@ p {
 .portfolio-items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
-    column-gap: 16px;
+    justify-content: space-between;
+    max-width: 1256px;
+    margin-left: 25px;
+    /* column-gap: 16px; */
 }
 
 /* Set the width and margin for articles within the .portfolio class */
+/*
 .portfolio-items article {
     width: cal(33.33% - 16px);
     margin: 8px;
 }
+*/
 
 /* Set the width of the .big-picture-container class to occuppy 100% of its container*/
 .portfolio-items .big-picture-container {
