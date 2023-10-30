@@ -132,13 +132,6 @@ p {
     /* column-gap: 16px; */
 }
 
-/* Set the width and margin for articles within the .portfolio class */
-/*
-.portfolio-items article {
-    width: cal(33.33% - 16px);
-    margin: 8px;
-}
-*/
 
 /* Set the width for .portfolio-items image */
 .portfolio-items img {
@@ -155,24 +148,8 @@ p {
     width: 50%;
 }
 
-/* Set the anchor tag within the first article of .portfolio-items to be a flex element, filling available width, and set aspect-ratio */
-/* .portfolio-items article a { 
-    display: flex;
-    width: 100%;
-    aspect-ratio: 16/9;
-    align-items: center;
-    overflow: hidden;
-    transition: ease-in-out;
-    /* filter: saturate(50); */
 
-
-/* Added hover filter */
-.portfolio-items article a:hover {
-    /* filter: saturate(20) */
-}
-
-
-/* Formatted contact-heading */
+/* Formatted contact section*/
 .contact-container {
     display: flex;
     padding: 8px 16px;
@@ -204,4 +181,9 @@ ul {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 30px 0 25px;
+    margin-top: 145px;
+}
+
+.section-spacing {
+    margin-bottom: 50px;
 }
