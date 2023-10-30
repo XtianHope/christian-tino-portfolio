@@ -140,7 +140,7 @@ p {
 }
 
 /* Set the anchor tag within the first article of .portfolio-items to be a flex element, filling available width, and set aspect-ratio */
-.portfolio-items article a {
+/* .portfolio-items article a { 
     display: flex;
     width: 100%;
     aspect-ratio: 16/9;
@@ -148,7 +148,7 @@ p {
     overflow: hidden;
     transition: ease-in-out;
     /* filter: saturate(50); */
-}
+
 
 /* Added hover filter */
 .portfolio-items article a:hover {
