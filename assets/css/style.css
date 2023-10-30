@@ -60,6 +60,15 @@ section h2 {
     font-size: 25px;
 }
 
+
+/* Formatted about-me-heading*/
+.about-me-heading {
+    border-right: 5px solid teal;
+    padding-right: 5px;
+    width: 300px;
+    min-width: 300px;
+}
+
 /* Formatted self-detail-container */
 .self-detail-container {
     display: flex;
@@ -120,11 +129,11 @@ p {
     align-items: center;
     overflow: hidden;
     transition: ease-in-out;
-    filter: saturate(50);
+    /* filter: saturate(50); */
 }
 
 /* Added hover filter */
 .portfolio-items article a:hover {
-    filter: saturate(20)
+    /* filter: saturate(20) */
 }
 
