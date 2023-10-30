@@ -60,6 +60,11 @@ section h2 {
     font-size: 25px;
 }
 
+/* Formatted self-detail-container */
+.self-detail-container {
+    display: flex;
+    padding: 8px 16px;
+}
 
 /* Set paragraph format */
 p {
