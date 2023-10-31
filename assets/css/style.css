@@ -45,17 +45,6 @@ nav a:hover {
     border-bottom: 1px solid teal;
 }
 
-/* Added media screen to adapt header when screen width is 980px or lower */
-@media screen and (max-width: 980px) {
-    header {
-        padding-bottom: 0;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
-        position: relative;
-    }
-}
-
 section h2 {
     font-size: 25px;
 }
@@ -92,12 +81,13 @@ p {
     margin-left: 40px;
 }
 
-/* Added media screen to adapt section when screen width is 768px or lower */
-@media screen and (max-width: 768px) {
+/* Added media screen to adapt section when screen width is 760px or lower */
+@media screen and (max-width: 760px) {
     section {
         padding-bottom: 0;
         justify-content: center;
         text-align: center;
+        flex-wrap: wrap;
         flex-direction: column;
         position: relative;
     }
@@ -178,6 +168,7 @@ p {
     margin-left: 30px;
 }
 
+/* Formatted Links in Contact Section */
 ul {
     font-size: 25px;
     justify-content: space-evenly;
@@ -186,6 +177,7 @@ ul {
     margin-top: 10px;
 }
 
+/* Added spacing at the top of each container */
 .section-spacing {
     margin-top: 90px;
 }
