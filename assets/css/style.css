@@ -73,7 +73,7 @@ section h2 {
     color:  teal;
     font-size: 48px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: calc(100% - 16px)
+    margin-top: calc(100% - 40px)
 }
 
 
@@ -187,5 +187,5 @@ ul {
 }
 
 .section-spacing {
-    margin-bottom: 50px;
+    margin-top: 90px;
 }
