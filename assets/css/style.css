@@ -15,6 +15,7 @@ header {
     background-color: teal;
     color: rgb(125, 177, 174);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
@@ -29,6 +30,7 @@ header {
  /* Set links to display horizontally */
  header nav{
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Set link appearance*/
